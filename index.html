@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="left-part">
+        <div class="title">
+          Learn to code by watching others
+        </div>
+        <div class="description">
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable. 
+        </div>
+      </div>
+      <div class="right-part">
+        <div class="discount">
+          <span style="font-weight: 600;">Try it free 7 days</span> then $20/mo. thereafter
+        </div>
+        <div class="signup-modal">
+          <div class="text-container">
+            <input class="first-name" type="text" placeholder="First Name">
+            <svg class="wrong-sign" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          </div>
+          <div class="input-container">
+            <div id="first-name-error">First name cannot be empty</div>
+          </div>
+          <div class="text-container">
+            <input class="last-name" type="text" placeholder="Last Name">
+            <svg class="wrong-sign" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          </div>
+          <div class="input-container">
+            <div id="last-name-error">Last name cannot be empty</div>
+          </div>
+          <div class="text-container">
+            <input class="email-address" type="email" placeholder="Email Address">
+            <svg class="wrong-sign" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          </div>
+          <div class="input-container">
+            <div id="wrong-email-error">Looks like this is not an email</div>
+            <div id="empty-email-error">Email address cannot be empty</div>
+          </div>
+          <div class="text-container">
+            <input class="password" type="password" placeholder="Password">
+            <svg class="wrong-sign" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          </div>
+          <div class="input-container">
+            <div id="empty-password-error">Password cannot be empty</div>
+            <div id="least-password-error">Password should be at least 8 characters</div>
+          </div>
+          <button class="signup-button">CLAIM YOUR FREE TRIAL</button>
+          <p class="terms-services">
+            By clicking the button, you are agreeing to our 
+            <span style="color: hsl(0, 100%, 74%); font-weight: 600; cursor: pointer;">Terms and Services</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
