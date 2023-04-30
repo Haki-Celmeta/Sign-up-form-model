@@ -134,3 +134,21 @@ body {
   right: 13%;
   display: none;
 }
+
+@media screen and (max-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    margin-top: 380px;
+    font-size: 36px;
+  }
+
+  .wrong-sign {
+    right: 21%;
+  }
+}
